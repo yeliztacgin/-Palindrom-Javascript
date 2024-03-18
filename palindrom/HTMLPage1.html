@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        function polindrom(str) {
+            str = str.toLowerCase();
+            const data = str.split('').reverse().join('');
+            if (str === data) {
+                console.log(true);
+
+            }
+            else {
+                console.log(false);
+            }
+
+            console.log(data);
+
+
+        }
+        polindrom('Madam');
+
+    </script>
+</body>
+</html>
